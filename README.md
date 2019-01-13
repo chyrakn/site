@@ -8,21 +8,16 @@
 
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-portfolio-item/)**
 
-## Status
+## Информация по установке
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-portfolio-item/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-portfolio-item.svg)](https://www.npmjs.com/package/startbootstrap-portfolio-item)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-portfolio-item.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-portfolio-item)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-portfolio-item/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-portfolio-item)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-portfolio-item/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-portfolio-item?type=dev)
+Для установки проекта неоходимо:
+- Перейти в папку для проекта
+- Запустить команду git clone https://github.com/chyrakn/site.git
 
-## Download and Installation
+## Иформацио о разработчике
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/portfolio-item/)
-* Install via npm: `npm i startbootstrap-portfolio-item`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-portfolio-item.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-portfolio-item)
+Чирак Наталья
+e-mail needlle@mail.ru
 
 ## Usage
 
