@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/portfolio-item.css" rel="stylesheet">
+     <link href="css/video.css" rel="stylesheet">
 
   </head>
 
@@ -59,9 +60,25 @@
       <!-- Portfolio Item Row -->
       <div class="row">
 
-        <div class="col-md-8">
-          <img id="picture" class="img-fluid" src="http://placehold.it/750x500" alt="">
-        </div>
+        	<section id= "player">
+                <video id="media" width="700" height="500"  >
+                  	<source src="vid/videoplayback.webm"  >
+                </video>
+                <nav>
+                	<div id= "button">
+                		<input type="button" id="play" value="play"/>
+                		<input type="button" id="mute" value="mute"/>
+                	</div>
+                	<div id="bar">
+                		<div id="progress"></div>
+                	</div>
+                	<div id="control">
+                		<input type="range" id="valume" min=0 max=1 step="0.1" volume="0.6" />
+                	</div>
+                	<div class="clear"></div>
+                </nav>
+          </section>
+
 
         <div class="col-md-4" id= "text" >
           <h3  class="my-3" >Project Description</h3>
@@ -124,7 +141,9 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
     <script src="js/main.js"></script>
+    <script src="js/video.js"></script>
 
   </body>
 
