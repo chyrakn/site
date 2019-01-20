@@ -14,6 +14,9 @@ function initiate (){
        // listeners
        play.addEventListener('click', push);
        bar.addEventListener('click', muve);
+       mute.addEventListener('click', sound);
+       volume.addEventListener('change', level);
+
 
 }
 
@@ -51,4 +54,19 @@ if(!media.paused && !media.ended){
     media.currentTime= newTime;
     progress.style.width = mauseX+'px';
 }
+}
+
+function level(){
+	media.volume = volume.value
+}
+
+function sound(){
+	if (mute.value=='mute'){
+		media.muted=true;
+		mute.value='sound';
+	}
+	else{
+      media.muted=false;
+      mute.value='mute';
+	}
 }
